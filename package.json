@@ -1,0 +1,19 @@
+{
+  "name": "test-multi-sig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "REPORT_GAS=true hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts --network"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.4"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0"
+  }
+}
